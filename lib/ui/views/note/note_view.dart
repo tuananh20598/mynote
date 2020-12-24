@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mynote/ui/views/note/widgets/note_view_item.dart';
+import 'package:mynote/ui/views/note/widgets/note_view_item_edit.dart';
 import 'package:stacked/stacked.dart';
 
 import 'note_viewmodel.dart';
