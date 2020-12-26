@@ -26,6 +26,9 @@ class NoteView extends StatelessWidget {
                         onTap: () {
                           model.editingItem = item;
                           model.state = NoteViewState.itemView;
+                        }
+                        onLongPress: (){
+                          model.deleteItem = item;
                         },
                       );
                     },
